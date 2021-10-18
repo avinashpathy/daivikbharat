@@ -1,0 +1,100 @@
+body{
+    background-color:hsl(45, 90%, 57%);
+ 
+}
+
+.header{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: 	rgb(22, 21, 21);
+    margin: 40px;
+}
+
+.quote{
+    margin:50px;
+    color:black;
+    text-align: center;
+    border: black solid 2px;
+    padding: 150px;
+   
+}
+    
+#id{
+    background-image: url("/lordshiva.jpg");
+}
+
+.navbar-brand{
+    margin-left:10px;
+}
+#navbarNav{
+    margin-left:680px;
+}
+.all{
+    border: rgb(158, 161, 165) solid 10px;
+}
+
+.new{
+    margin: 30px;
+    margin-bottom: 80px;
+
+}
+#services img{
+	width:100%;
+    
+}
+#services .circle{
+width:240px;
+height: 140px;
+display:inline-block;
+background: transparent;
+overflow:hidden;
+
+}
+#services .circle:hover {
+	background:orange;	
+	transition: all 0.2s linear 0s;
+	-webkit-transition: all 0.2s linear 0s;
+	-moz-transition: all 0.2s linear 0s;
+	-o-transition: all 0.2s linear 0s;
+   
+}
+.scriptures{
+    border: black 3px solid;
+}
+.hr{
+    border: 1px solid rgb(158, 161, 165);
+}
+
+#abc{
+    /*border: black 2px solid;*/
+    padding: 20px;
+}
+#def{
+    /*border: black 2px solid;*/
+    padding: 20px;
+}
+
+#ghi{
+   /*border: black 2px solid;*/
+    padding: 20px;
+}
+
+#jkl{
+   /*border: black 2px solid;*/
+    padding: 20px;
+}
+.about{
+    text-align: center;
+    margin: 10px;
+}
+.header1 img {
+    float: left;
+    width: 65px;
+    height: 60px;
+    background: #555;
+  }
+  
+  .header1 h1 {
+    position: relative;
+    top: 8px;
+   
+  }
