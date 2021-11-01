@@ -107,6 +107,48 @@ overflow:hidden;
     text-align: center;
 }
 .para3{
-    margin-top: 10px;
+    margin-top: 0px;
     text-align: center;
+}
+
+
+/*.para21 .l3{
+    margin-left: 11px;
+}
+.para21 .l4{
+    margin-left: 35px;
+}
+
+.para3{
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+}*/
+
+.para4{
+    margin-top: 30px;
+    text-align: center;
+}
+.para4 .l5{
+    margin-left: 49px;
+    text-align: center;
+}
+.para4 .l6{
+    margin-left: 63px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.para5{
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+.para6 .l7{
+    margin-left: 49px;
+    text-align: center;
+}
+.para6 .l8{
+    margin-left: 51px;
+    text-align: center;
+    margin-bottom: 20px;
 }
