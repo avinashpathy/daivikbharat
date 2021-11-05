@@ -185,3 +185,15 @@ overflow:hidden;
     text-align: center;
     margin-bottom: 20px;
 }
+.state{
+    margin-left:10px;
+}
+.sname li a{
+    color:black;
+}
+.sname a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      
+}
