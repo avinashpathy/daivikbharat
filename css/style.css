@@ -129,7 +129,7 @@ overflow:hidden;
     margin-top: 30px;
     text-align: center;
 }
-.para4 .l5{
+/*.para4 .l5{
     margin-left: 49px;
     text-align: center;
 }
@@ -137,18 +137,51 @@ overflow:hidden;
     margin-left: 63px;
     text-align: center;
     margin-bottom: 10px;
-}
+}*/
 .para5{
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 0px;
     text-align: center;
 }
-.para6 .l7{
-    margin-left: 49px;
+.para5 .l1{
+    margin-left:0px;
+}
+.para5 .l2{
+    margin-left:0px;
+}
+.para5 .l3{
+    margin-left:12px;
+}
+.para5 .l4{
+    margin-left:38px;
+}
+
+.para6{
+    margin-top: 10px;
+    margin-left: 22px;
     text-align: center;
 }
-.para6 .l8{
-    margin-left: 51px;
+.para7 .l5{
+    margin-left:42px;
+    text-align: center;
+}
+.para7 .l6{
+    margin-left:67px;
+    text-align: center;
+}
+
+.para8{
+    margin-top: 10px;
+    margin-left: 22px;
+    text-align: center;
+}
+
+.para9 .l7{
+    margin-left: 31px;
+    text-align: center;
+}
+.para9 .l8{
+    margin-left: 29px;
     text-align: center;
     margin-bottom: 20px;
 }
