@@ -210,3 +210,17 @@ overflow:hidden;
     margin-bottom: 50px;
     width: 50%;
 }
+
+.about1{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.cat1{
+    margin-left: 10px;
+}
+.cat1 a{
+    color:black;
+}
+.cat1 a:hover{
+    color:red;
+}
