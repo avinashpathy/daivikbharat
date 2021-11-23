@@ -225,3 +225,10 @@ overflow:hidden;
 .cat1 a:hover{
     color:red;
 }
+#card1{
+    margin-left:140px;
+}
+.card{
+    margin-left: 10px;
+    margin-right: 10px;
+}
