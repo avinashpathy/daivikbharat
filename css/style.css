@@ -215,8 +215,9 @@ overflow:hidden;
 }
 
 .about1{
-    margin-left: 10px;
+    margin-left: 530px;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 .cat1{
     margin-left: 10px;
@@ -257,5 +258,8 @@ overflow:hidden;
     margin-bottom: 30px;
 }
 #abc1{
+    margin-top: 400px;
+}
+#abc11{
     margin-top: 400px;
 }
