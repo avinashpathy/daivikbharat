@@ -68,6 +68,7 @@ overflow:hidden;
 #abc{
     /*border: black 2px solid;*/
     padding: 20px;
+    
 }
 #def{
     /*border: black 2px solid;*/
@@ -254,4 +255,7 @@ overflow:hidden;
 }
 #gallery1{
     margin-bottom: 30px;
+}
+#abc1{
+    margin-top: 400px;
 }
