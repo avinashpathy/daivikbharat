@@ -1,5 +1,6 @@
 body{
     background-color:hsl(45, 90%, 57%);
+    min-height: 100vh;
  
 }
 
@@ -8,12 +9,90 @@ body{
     color: 	rgb(22, 21, 21);
     margin: 40px;
 }
+.blk{
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+.blk a{
+color:black;
+}
+.blk a:hover{
+    color:rgb(42, 148, 180);
+    transition: color .4s ease;
+    text-decoration: none;
+    }
+ .fa{
+        margin-right: 5px;
+    }
+
 /*footer {
     clear: both;
     position: relative;
     height: 150px;
     margin-top: -150px;
 }*/
+footer{ 
+    position: sticky;
+    top:100%;
+}
+footer{
+    background:#343a40;
+    height:auto;
+    width: 100vw;
+    padding-top: 10px;
+    color:#fff;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.soc{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    margin-top: 50px;
+
+}
+
+.soc li{
+   margin: 2px 16px; 
+}
+.soc a{
+    text-decoration: none;
+    color: #fff;
+}
+.soc a i{
+    font-size: 1.7rem;
+    transition: color .4s ease;
+}
+.soc a:hover i{
+    color:aqua;
+
+}
+.footbottom{
+    background:#343a40;
+    width: 100vw;
+    padding:10px 0;
+    text-align: center;
+    margin-left: 20px;
+}
+.footbottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    
+}
+.footbottom span{
+    color:whitesmoke;
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+    margin-left: 2px;
+}
 .quote{
     margin:50px;
     color:black;
@@ -26,7 +105,12 @@ body{
 #id{
     background-image: url("/lordshiva.jpg");
 }
-
+#id1{
+    margin-left: 20px;
+}
+#id2{
+    margin-left: 20px;
+}
 .navbar-brand{
     margin-left:10px;
 }
