@@ -84,7 +84,7 @@ header{
 }
 
 header a:hover{
-    color:aqua;
+    color:orange;
     text-decoration: none;
     transition: color .4s ease;
 }
@@ -105,7 +105,7 @@ header a:hover{
     text-decoration: none;
 }
 .navlinks li a:hover{
-    color:blueviolet;
+    color:orange;
     
 }
 
