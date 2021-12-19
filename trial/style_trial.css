@@ -4,11 +4,7 @@ body{
  
 }
 
-.header{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: 	rgb(22, 21, 21);
-    margin: 40px;
-}
+
 .blk{
     margin-left: 20px;
     margin-bottom: 100px;
@@ -117,6 +113,25 @@ footer{
     margin-left: 2px;
 }
 
+
+
+#head{
+    border: rgb(158, 161, 165) solid 10px;
+    
+}
+#head h1{
+    position: relative;
+    top: 15px;
+    margin-left: 10px;
+}
+nav  img {
+    float: left;
+    width: 65px;
+    height: 60px;
+    background: #555;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
 footer {
     width:100%; 
     bottom:0;
@@ -139,15 +154,25 @@ footer {
 #id2{
     margin-left: 20px;
 }
-.navbar-brand{
+/*.navbar-brand{
     margin-left:10px;
-}
+}*/
 #navbarNav{
     margin-left:680px;
+}
+nav .navbar-collapse  ul.navbar-nav {
+    float: right;
+    margin-right: 0;
 }
 .all{
     border: rgb(158, 161, 165) solid 10px;
 }
+
+#navtop{
+    margin-bottom:100px;
+
+}
+
 
 .new{
     margin: 30px;
@@ -206,14 +231,21 @@ overflow:hidden;
     margin: 10px;
     margin-bottom: 30px;
 }
-.header1 img {
+.logo{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    border: white 5px solid;
+}
+.logo img {
     float: left;
     width: 65px;
     height: 60px;
     background: #555;
   }
   
-  .header1 h1 {
+  .logo h1 {
     position: relative;
     top: 8px;
    
@@ -398,4 +430,36 @@ overflow:hidden;
   margin-left: auto;
   margin-right: auto;
   
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    border: white 5px solid;
+}
+header a:hover{
+    color:aqua;
+    text-decoration: none;
+    transition: color .4s ease;
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li{
+    display:inline-block;
+    padding:0px 20px;
+}
+.navlinks li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+#one{
+    transition: all 0.3s ease 0s;
+    font-size: 30px;
+    text-decoration: none;
+}
+.navlinks li a:hover{
+    color:blueviolet;
+    
 }

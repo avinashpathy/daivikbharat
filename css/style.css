@@ -1,14 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
 body{
-    background-color:hsl(45, 90%, 57%);
-    min-height: 100vh;
- 
+   background-color: hsl(45, 90%, 57%);
+   min-height: 100vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    
 }
 
-.header{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: 	rgb(22, 21, 21);
-    margin: 40px;
-}
 .blk{
     margin-left: 20px;
     margin-bottom: 100px;
@@ -139,15 +144,78 @@ footer {
 #id2{
     margin-left: 20px;
 }
-.navbar-brand{
+/*.navbar-brand{
     margin-left:10px;
 }
 #navbarNav{
     margin-left:680px;
 }
+
 .all{
     border: rgb(158, 161, 165) solid 10px;
+}*/
+
+li,a{
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
 }
+
+header{
+    background-color: #343a40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 1%;
+    border: rgb(158, 161, 165) 10px solid;
+}
+
+header a:hover{
+    color:aqua;
+    text-decoration: none;
+    transition: color .4s ease;
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li{
+    display:inline-block;
+    padding:0px 20px;
+}
+.navlinks li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+#one{
+    transition: all 0.3s ease 0s;
+    font-size: 30px;
+    text-decoration: none;
+}
+.navlinks li a:hover{
+    color:blueviolet;
+    
+}
+
+
+.menu-icon{
+    width:25px;
+    cursor:pointer;
+    display: none;
+}
+
+.header1 img {
+    float: left;
+    width: 65px;
+    height: 60px;
+    background: #555;
+  }
+  
+  .header1 h1 {
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 8px;
+  }
 
 .new{
     margin: 30px;
@@ -206,7 +274,7 @@ overflow:hidden;
     margin: 10px;
     margin-bottom: 30px;
 }
-.header1 img {
+/*.header1 img {
     float: left;
     width: 65px;
     height: 60px;
@@ -217,7 +285,7 @@ overflow:hidden;
     position: relative;
     top: 8px;
    
-  }
+  }*/
 .para1{
     margin-top: 30px;
     text-align: center;
@@ -398,4 +466,35 @@ overflow:hidden;
   margin-left: auto;
   margin-right: auto;
   
+}
+
+
+
+
+
+
+@media only screen and (max-width:700px){
+    header{
+        width: 100%;
+    }
+    nav ul{
+        width:100%;
+        position:absolute;
+        top:75px;
+        right:0;
+        z-index: 2;
+    }
+    nav ul li {
+        display:block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        overflow: hidden;
+        transform:0.5s ;
+    }
+   
 }
