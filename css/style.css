@@ -498,6 +498,11 @@ footer {
     margin-left: 442px;
     margin-top: 20px;
 }
+
+#historyhindu1{
+    margin-left: 380px;
+    margin-top: 20px;
+}
 @media only screen and (max-width:700px){
     header{
         width: 100%;
